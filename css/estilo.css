@@ -1,0 +1,170 @@
+h5{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    color: beige;
+}
+body{
+    background-color: red;
+}
+.padre{
+    background-color: rgb(9, 49, 13);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-between;
+}
+.hijo1{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+    grid-column: 1/6;
+    
+}
+.hijo2{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+    grid-column: 1/4;
+}
+.hijo3{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    width: 100px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+    
+}
+.hijo4{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    width: 100px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+}
+.hijo5{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+    grid-column: 1/5;
+    grid-row: 4/6;
+
+    
+}
+.hijo6{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+
+}
+.hijo7{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+    grid-column: 1/5;
+    
+}
+.hijo8{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+}
+.hijo9{
+    background-color: rgb(5, 155, 68);
+    margin: 5px;
+    border-style: dashed;
+    border-color: rgb(53, 160, 231);
+    font-size: 40px;
+}
+
+.contenedorPrincipal{
+    background-color: purple;
+    float:left;
+}
+.contenedor1{
+    background-color:  rgb(216, 50, 105);
+    margin: 5px;
+    width: 200px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float:left;
+    
+}
+
+.contenedor2{
+    background-color:  rgb(216, 50, 105);
+    margin: 5px;
+    width: 500px;
+    height: 270px;
+    flex-grow: 5;
+    display: flex;
+    flex-wrap: wrap;
+    float:left;
+}
+
+.c21{
+    background-color: pink;
+    margin: 20px;
+    margin-top: 40px;
+    width: 420px;
+    height: 110px;
+    
+}
+.c22{
+    background-color: pink;
+    margin: 13px;
+    width: 200px;
+    height: 60px;
+}
+
+.contenedor3{
+    background-color:  rgb(216, 50, 105);
+    margin: 5px;
+    width: 200px;
+    height: 270px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float:left;
+}
+
+
+.primero{
+    background-color:  rgb(243, 157, 77);
+    margin: 5px;
+   
+    flex-grow: 5;
+    display: flex;
+    
+    
+}
+.c1{
+    background-color: rgb(243, 157, 77);
+    margin: 5px;
+    width: 440px;
+    height: 100px;
+}
+.caja31{
+    background-color: bisque;
+    width: 900px;
+    height: 500px;
+}
